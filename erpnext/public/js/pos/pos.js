@@ -479,7 +479,7 @@ erpnext.pos.PointOfSale = Class.extend({
 
 			me.frm.savesubmit(this);
 			dialog.hide();
-			me.refresh();
+			me.delay();
 		})
 
 	}
